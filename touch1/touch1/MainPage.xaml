@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:touch1"
+             x:Class="touch1.MainPage"
+             xmlns:ef="clr-namespace:AiForms.Effects;assembly=AiForms.Effects">
+
+
+    <StackLayout HeightRequest="300" ef:AddTouch.On="true" >
+        <!-- Place new controls here -->
+        <Image Source="image1.png" ef:AddTouch.On="True" x:Name="container"> 
+        </Image>
+        <Label 
+            Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
